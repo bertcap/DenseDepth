@@ -1,6 +1,6 @@
 import tensorflow as tf
 from tensorflow import keras
-from keras.layers import Layer, InputSec
+from keras.layers import Layer, InputSpec
 from tensorflow.python.keras.utils import conv_utils
 import keras.backend as K
 
