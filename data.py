@@ -3,7 +3,7 @@ from utils import DepthNorm
 from io import BytesIO
 from PIL import Image
 from zipfile import ZipFile
-from tensorflow.keras.utils import Sequence
+from keras.utils import Sequence
 from augment import BasicPolicy
 
 def extract_zip(input_zip):
